@@ -1,5 +1,6 @@
 package unam.fca.dmoviles;
 
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     //Descomentar para realizar la axtividad
-    /*
+   ///*
     @Override
     public void onRestoreInstanceState(Bundle savedInstanceState) {
         final TextView tv = findViewById(R.id.tv);
@@ -70,6 +71,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putString(TEXT_VIEW_KEY, tv.getText().toString());
         super.onSaveInstanceState(outState);
     }
-    */
+   //*/
 
 }
